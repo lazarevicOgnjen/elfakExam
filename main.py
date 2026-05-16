@@ -15,14 +15,14 @@ clean_header = header.get_text(separator=' | ', strip=True)
 h = f"| {clean_header} |\n"
 
 
-with open ("subjects.md", "w", encoding="utf-8") as f:
+with open ("schedule.md", "w", encoding="utf-8") as f:
 		f.write(f'**url: [{url}]({url})**')
 
 
 
 tableName = ['I godina', 'II godina', 'III godina', 'IV godina']
 i = 0
-with open ("subjects.md", "a", encoding="utf-8") as f:
+with open ("schedule.md", "a", encoding="utf-8") as f:
 	while i < 4:
 		f.write(f'\n\n\n**{tableName[i]}**\n\n')
 		f.write(h)
