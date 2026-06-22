@@ -34,6 +34,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add subjects.md
+          git add schedule.md
           git commit -m "Auto-update scraped content [skip ci]" || echo "No changes to commit"
           git push
